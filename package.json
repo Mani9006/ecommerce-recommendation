@@ -1,0 +1,59 @@
+{
+  "name": "ecommerce-recommendation-widget",
+  "version": "1.0.0",
+  "description": "A complete e-commerce product recommendation widget with collaborative filtering, content-based filtering, and A/B testing",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/ tests/ --ext .js",
+    "lint:fix": "eslint src/ tests/ --ext .js --fix",
+    "simulate-commits": "node simulate_commits.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "recommendations",
+    "collaborative-filtering",
+    "content-based-filtering",
+    "ab-testing",
+    "express",
+    "nodejs"
+  ],
+  "author": "Mani <myfamily9006@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "eslint": "^8.56.0",
+    "supertest": "^6.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/server.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 70,
+        "functions": 70,
+        "lines": 70,
+        "statements": 70
+      }
+    },
+    "testMatch": [
+      "**/tests/**/test_*.[jt]s?(x)",
+      "**/?(*.)+(test|spec).[jt]s?(x)",
+      "**/__tests__/**/*.[jt]s?(x)"
+    ]
+  }
+}

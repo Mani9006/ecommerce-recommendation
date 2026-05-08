@@ -1,0 +1,324 @@
+{
+  "products": [
+    {
+      "id": "p001",
+      "name": "Wireless Bluetooth Headphones",
+      "category": "electronics",
+      "subcategory": "audio",
+      "price": 79.99,
+      "rating": 4.5,
+      "reviewCount": 234,
+      "tags": ["bluetooth", "wireless", "noise-cancelling", "over-ear"],
+      "attributes": {
+        "color": "black",
+        "batteryLife": "30 hours",
+        "weight": "250g"
+      },
+      "popularity": 95
+    },
+    {
+      "id": "p002",
+      "name": "USB-C Charging Cable 2-Pack",
+      "category": "electronics",
+      "subcategory": "accessories",
+      "price": 12.99,
+      "rating": 4.2,
+      "reviewCount": 1890,
+      "tags": ["usb-c", "charging", "cable", "durable"],
+      "attributes": {
+        "length": "6ft",
+        "color": "white",
+        "material": "braided nylon"
+      },
+      "popularity": 88
+    },
+    {
+      "id": "p003",
+      "name": "Portable Phone Charger 10000mAh",
+      "category": "electronics",
+      "subcategory": "power",
+      "price": 29.99,
+      "rating": 4.6,
+      "reviewCount": 567,
+      "tags": ["power-bank", "portable", "usb-c", "fast-charging"],
+      "attributes": {
+        "capacity": "10000mAh",
+        "color": "black",
+        "ports": "2 USB-A, 1 USB-C"
+      },
+      "popularity": 92
+    },
+    {
+      "id": "p004",
+      "name": "Smart Fitness Tracker Watch",
+      "category": "electronics",
+      "subcategory": "wearables",
+      "price": 49.99,
+      "rating": 4.3,
+      "reviewCount": 445,
+      "tags": ["fitness", "smartwatch", "heart-rate", "waterproof"],
+      "attributes": {
+        "color": "blue",
+        "batteryLife": "7 days",
+        "waterResistance": "IP68"
+      },
+      "popularity": 85
+    },
+    {
+      "id": "p005",
+      "name": "Organic Cotton T-Shirt",
+      "category": "clothing",
+      "subcategory": "tops",
+      "price": 24.99,
+      "rating": 4.4,
+      "reviewCount": 321,
+      "tags": ["organic", "cotton", "t-shirt", "sustainable"],
+      "attributes": {
+        "color": "navy",
+        "size": "S-XXL",
+        "material": "100% organic cotton"
+      },
+      "popularity": 78
+    },
+    {
+      "id": "p006",
+      "name": "Running Shoes - Lightweight",
+      "category": "clothing",
+      "subcategory": "footwear",
+      "price": 89.99,
+      "rating": 4.7,
+      "reviewCount": 678,
+      "tags": ["running", "shoes", "lightweight", "breathable"],
+      "attributes": {
+        "color": "grey/neon",
+        "size": "7-13",
+        "weight": "220g per shoe"
+      },
+      "popularity": 90
+    },
+    {
+      "id": "p007",
+      "name": "Insulated Water Bottle 32oz",
+      "category": "home",
+      "subcategory": "kitchen",
+      "price": 34.99,
+      "rating": 4.8,
+      "reviewCount": 1234,
+      "tags": ["water-bottle", "insulated", "stainless-steel", "bpa-free"],
+      "attributes": {
+        "color": "teal",
+        "capacity": "32oz",
+        "material": "18/8 stainless steel"
+      },
+      "popularity": 96
+    },
+    {
+      "id": "p008",
+      "name": "Yoga Mat Non-Slip",
+      "category": "fitness",
+      "subcategory": "yoga",
+      "price": 39.99,
+      "rating": 4.5,
+      "reviewCount": 890,
+      "tags": ["yoga", "mat", "non-slip", "eco-friendly"],
+      "attributes": {
+        "color": "purple",
+        "thickness": "6mm",
+        "material": "TPE eco-friendly"
+      },
+      "popularity": 82
+    },
+    {
+      "id": "p009",
+      "name": "Resistance Bands Set",
+      "category": "fitness",
+      "subcategory": "strength",
+      "price": 19.99,
+      "rating": 4.3,
+      "reviewCount": 1567,
+      "tags": ["resistance-bands", "workout", "strength", "portable"],
+      "attributes": {
+        "colors": "multi",
+        "levels": "5 resistance levels",
+        "material": "natural latex"
+      },
+      "popularity": 80
+    },
+    {
+      "id": "p010",
+      "name": "Stainless Steel Cookware Set",
+      "category": "home",
+      "subcategory": "kitchen",
+      "price": 149.99,
+      "rating": 4.6,
+      "reviewCount": 234,
+      "tags": ["cookware", "stainless-steel", "pots", "pans"],
+      "attributes": {
+        "pieces": "10-piece",
+        "material": "18/10 stainless steel",
+        "dishwasherSafe": true
+      },
+      "popularity": 75
+    },
+    {
+      "id": "p011",
+      "name": "LED Desk Lamp with Wireless Charger",
+      "category": "home",
+      "subcategory": "office",
+      "price": 44.99,
+      "rating": 4.4,
+      "reviewCount": 445,
+      "tags": ["lamp", "led", "wireless-charging", "desk"],
+      "attributes": {
+        "color": "white",
+        "brightness": "5 levels",
+        "features": "wireless charging base"
+      },
+      "popularity": 70
+    },
+    {
+      "id": "p012",
+      "name": "Bluetooth Portable Speaker",
+      "category": "electronics",
+      "subcategory": "audio",
+      "price": 59.99,
+      "rating": 4.5,
+      "reviewCount": 789,
+      "tags": ["bluetooth", "speaker", "portable", "waterproof"],
+      "attributes": {
+        "color": "black",
+        "batteryLife": "12 hours",
+        "waterResistance": "IPX7"
+      },
+      "popularity": 87
+    },
+    {
+      "id": "p013",
+      "name": "Men's Hiking Boots",
+      "category": "clothing",
+      "subcategory": "footwear",
+      "price": 119.99,
+      "rating": 4.6,
+      "reviewCount": 312,
+      "tags": ["hiking", "boots", "waterproof", "durable"],
+      "attributes": {
+        "color": "brown",
+        "size": "7-14",
+        "material": "full-grain leather"
+      },
+      "popularity": 76
+    },
+    {
+      "id": "p014",
+      "name": "Wireless Mechanical Keyboard",
+      "category": "electronics",
+      "subcategory": "accessories",
+      "price": 99.99,
+      "rating": 4.7,
+      "reviewCount": 456,
+      "tags": ["keyboard", "mechanical", "wireless", "rgb"],
+      "attributes": {
+        "color": "white",
+        "switches": "blue switches",
+        "connectivity": "Bluetooth/USB-C"
+      },
+      "popularity": 83
+    },
+    {
+      "id": "p015",
+      "name": "Ceramic Coffee Mug Set of 4",
+      "category": "home",
+      "subcategory": "kitchen",
+      "price": 29.99,
+      "rating": 4.5,
+      "reviewCount": 678,
+      "tags": ["coffee", "mugs", "ceramic", "set"],
+      "attributes": {
+        "color": "assorted",
+        "capacity": "12oz each",
+        "dishwasherSafe": true
+      },
+      "popularity": 72
+    },
+    {
+      "id": "p016",
+      "name": "Adjustable Dumbbells 25lb Pair",
+      "category": "fitness",
+      "subcategory": "strength",
+      "price": 199.99,
+      "rating": 4.8,
+      "reviewCount": 234,
+      "tags": ["dumbbells", "adjustable", "strength", "space-saving"],
+      "attributes": {
+        "weight": "5-25lb each",
+        "material": "steel with chrome finish",
+        "adjustment": "dial system"
+      },
+      "popularity": 88
+    },
+    {
+      "id": "p017",
+      "name": "Noise Cancelling Earbuds",
+      "category": "electronics",
+      "subcategory": "audio",
+      "price": 129.99,
+      "rating": 4.4,
+      "reviewCount": 890,
+      "tags": ["earbuds", "noise-cancelling", "wireless", "bluetooth"],
+      "attributes": {
+        "color": "black",
+        "batteryLife": "8 hours + 24 case",
+        "waterResistance": "IPX4"
+      },
+      "popularity": 91
+    },
+    {
+      "id": "p018",
+      "name": "Women's Athletic Leggings",
+      "category": "clothing",
+      "subcategory": "bottoms",
+      "price": 34.99,
+      "rating": 4.3,
+      "reviewCount": 1234,
+      "tags": ["leggings", "athletic", "stretch", "pockets"],
+      "attributes": {
+        "color": "black",
+        "size": "XS-XXL",
+        "material": "78% polyester, 22% spandex"
+      },
+      "popularity": 86
+    },
+    {
+      "id": "p019",
+      "name": "Espresso Machine - Compact",
+      "category": "home",
+      "subcategory": "kitchen",
+      "price": 179.99,
+      "rating": 4.5,
+      "reviewCount": 167,
+      "tags": ["espresso", "coffee", "machine", "compact"],
+      "attributes": {
+        "color": "silver",
+        "pressure": "15 bar",
+        "features": "milk frother included"
+      },
+      "popularity": 68
+    },
+    {
+      "id": "p020",
+      "name": "Foam Roller for Muscle Recovery",
+      "category": "fitness",
+      "subcategory": "recovery",
+      "price": 22.99,
+      "rating": 4.4,
+      "reviewCount": 567,
+      "tags": ["foam-roller", "recovery", "massage", "fitness"],
+      "attributes": {
+        "color": "black",
+        "length": "13 inches",
+        "density": "medium"
+      },
+      "popularity": 74
+    }
+  ]
+}

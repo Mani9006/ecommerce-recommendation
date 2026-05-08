@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Recommendation Widget Demo</title>
+  <link rel="stylesheet" href="css/widget.css">
+</head>
+<body>
+  <div class="demo-container">
+    <!-- Header -->
+    <header class="widget-header">
+      <h1>Product Recommendation Widget</h1>
+      <p class="subtitle">Powered by collaborative filtering, content-based algorithms, and A/B testing</p>
+    </header>
+
+    <!-- User Selector -->
+    <section class="user-section">
+      <div class="user-selector">
+        <label for="userSelect">Select User:</label>
+        <select id="userSelect"></select>
+        <button id="simulateBtn" class="btn btn-primary">Simulate New Session</button>
+        <button id="simulateManyBtn" class="btn btn-secondary">Simulate 50 Events</button>
+      </div>
+      <div id="userStats" class="user-stats"></div>
+    </section>
+
+    <!-- Product Detail (Simulated) -->
+    <section class="product-context">
+      <h2>Current Product</h2>
+      <div class="product-context-selector">
+        <label for="contextProduct">Viewing Product:</label>
+        <select id="contextProduct"></select>
+      </div>
+      <div id="productCard" class="product-card-large"></div>
+    </section>
+
+    <!-- A/B Testing Controls -->
+    <section class="ab-test-section">
+      <h2>A/B Testing</h2>
+      <div class="ab-controls">
+        <div class="control-group">
+          <label for="experimentSelect">Active Experiment:</label>
+          <select id="experimentSelect">
+            <option value="">None (Use default strategy)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="strategySelect">Recommendation Strategy:</label>
+          <select id="strategySelect">
+            <option value="hybrid" selected>Hybrid (default)</option>
+            <option value="collaborative">Collaborative Filtering</option>
+            <option value="content-based">Content-Based</option>
+            <option value="popular">Popularity Only</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="limitSelect">Results Count:</label>
+          <select id="limitSelect">
+            <option value="4">4</option>
+            <option value="6" selected>6</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="layoutSelect">Widget Layout:</label>
+          <select id="layoutSelect">
+            <option value="grid" selected>Grid</option>
+            <option value="carousel">Carousel</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Widgets -->
+    <main class="widget-content">
+      <!-- Personalized Recommendations -->
+      <section class="widget-section">
+        <div class="section-header">
+          <h2>Recommended For You</h2>
+          <span id="personalizedMeta" class="meta-badge"></span>
+        </div>
+        <div id="personalizedWidget" class="recommendation-widget grid-layout">
+          <div class="loading-state">
+            <div class="spinner"></div>
+            <p>Loading recommendations...</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Customers Also Bought -->
+      <section class="widget-section">
+        <div class="section-header">
+          <h2>Customers Also Bought</h2>
+          <span id="alsoBoughtMeta" class="meta-badge"></span>
+        </div>
+        <div id="alsoBoughtWidget" class="recommendation-widget grid-layout">
+          <div class="loading-state">
+            <div class="spinner"></div>
+            <p>Loading recommendations...</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Related Products -->
+      <section class="widget-section">
+        <div class="section-header">
+          <h2>Related Products</h2>
+          <span id="relatedMeta" class="meta-badge"></span>
+        </div>
+        <div id="relatedWidget" class="recommendation-widget grid-layout">
+          <div class="loading-state">
+            <div class="spinner"></div>
+            <p>Loading recommendations...</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trending Now -->
+      <section class="widget-section">
+        <div class="section-header">
+          <h2>Trending Now</h2>
+          <span id="trendingMeta" class="meta-badge"></span>
+        </div>
+        <div id="trendingWidget" class="recommendation-widget grid-layout">
+          <div class="loading-state">
+            <div class="spinner"></div>
+            <p>Loading recommendations...</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- A/B Test Dashboard -->
+    <section class="dashboard-section">
+      <h2>A/B Test Dashboard</h2>
+      <div id="dashboardWidget"></div>
+    </section>
+
+    <!-- Event Log -->
+    <section class="event-log-section">
+      <h2>Recent Events</h2>
+      <div id="eventLog" class="event-log"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="widget-footer">
+      <p>E-Commerce Recommendation Widget Demo - Built with Node.js, Express, and vanilla JavaScript</p>
+      <p><a href="/api/health" target="_blank">Health Check</a> | <a href="/api/dashboard" target="_blank">API Dashboard</a></p>
+    </footer>
+  </div>
+
+  <script src="js/widget.js"></script>
+</body>
+</html>
