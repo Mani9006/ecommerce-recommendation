@@ -297,3 +297,37 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+---
+
+<!-- showcase:start -->
+
+## Architecture
+
+```mermaid
+flowchart LR
+    A[Product Catalog] --> B[Collaborative Filter]
+    B --> C[Similarity Matrix]
+    C --> D[Top-N Recommender]
+    D --> E[REST API]
+    E --> F[A/B Testing Engine]
+```
+
+## Test Results
+
+![Test results](docs/test_results.png)
+
+**126 passing**, **0 failing**, **0 skipped** (total 126, framework: Jest)
+
+## References & Further Reading
+
+- Sarwar, B. et al. (2001). *Item-based collaborative filtering recommendation algorithms.* WWW '01. [↗](https://dl.acm.org/doi/10.1145/371920.372071)
+- Koren, Y., Bell, R., & Volinsky, C. (2009). *Matrix Factorization Techniques for Recommender Systems.* IEEE Computer 42(8). [↗](https://ieeexplore.ieee.org/document/5197422)
+
+## Author
+
+**Manikanta Reddy Mandadhi** — Senior Data Scientist (RAG / Agentic AI)
+
+GitHub: [@Mani9006](https://github.com/Mani9006/ecommerce-recommendation) · LinkedIn: [reddy1999](https://www.linkedin.com/in/reddy1999) · Portfolio: [manikantabio.com](https://www.manikantabio.com)
+
+<!-- showcase:end -->
