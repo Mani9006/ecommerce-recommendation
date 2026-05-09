@@ -302,6 +302,20 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 <!-- showcase:start -->
 
+## Research Report
+
+**Item-Based Collaborative Filtering for Catalog Recommendations**
+
+_A study on the MovieLens-25M dataset comparing item-kNN, ALS, and a content-aware hybrid_
+
+A self-contained research-grade report (Abstract, Introduction, Research Problem, Research Questions, Literature Review, Research Method, Data Description, Analysis, Discussion, Conclusion, Future Work, References) is published with this repository.
+
+[Read the full report (PDF)](docs/research_report.pdf)
+
+**Keywords:** recommender systems, collaborative filtering, ALS, cold-start, A/B testing
+
+![Research metrics](docs/research_metrics.png)
+
 ## Architecture
 
 ```mermaid
